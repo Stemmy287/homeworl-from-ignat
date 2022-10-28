@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homeworl-from-ignat/static/css/main.8149072b.css",
+    "main.js": "/homeworl-from-ignat/static/js/main.9a26e634.js",
+    "index.html": "/homeworl-from-ignat/index.html",
+    "main.8149072b.css.map": "/homeworl-from-ignat/static/css/main.8149072b.css.map",
+    "main.9a26e634.js.map": "/homeworl-from-ignat/static/js/main.9a26e634.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8149072b.css",
+    "static/js/main.9a26e634.js"
+  ]
+}
