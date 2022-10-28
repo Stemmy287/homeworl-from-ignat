@@ -1,0 +1,42 @@
+.rootMessage {
+    background-color: #013220;
+    grid-area: rm;
+    margin: 5px 5px 5px 10px;
+    border-radius: 5px 5px 5px 0;
+    position: relative;
+    width: 300px;
+}
+
+.rootMessage::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(70px at top left, transparent 49%, #013220 30%) no-repeat right bottom;
+}
+
+
+.name {
+    color: #B57EDC;
+    font-weight: bold;
+    margin: 5px 5px 5px 15px;
+}
+
+.message {
+    color: white;
+    margin: 5px 5px 8px 15px;
+    max-width: 245px;
+}
+
+.time {
+    color: gray;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

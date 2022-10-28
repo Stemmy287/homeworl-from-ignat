@@ -1,0 +1,21 @@
+.message {
+    display: grid;
+    background-color: yellow;
+    width: auto;
+    grid-template-areas:
+    'img rm'
+    'img rm';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 24fr;
+    position: relative;
+}
+
+.img {
+    border-radius: 50%;
+    width: 41px;
+    grid-area: img;
+    margin: 5px 5px 5px  7px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
