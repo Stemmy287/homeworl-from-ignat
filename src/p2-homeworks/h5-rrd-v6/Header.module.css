@@ -32,7 +32,7 @@
 }
 
 
-.dropdownContent a:hover {background-color: #ddd;}
+.dropdownContent div:hover {background-color: #ddd;}
 
 
 .dropdown:hover .dropdownContent {display: block;}
