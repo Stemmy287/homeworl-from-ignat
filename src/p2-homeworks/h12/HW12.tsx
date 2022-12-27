@@ -25,7 +25,6 @@ function HW12() {
             {/*should work (должно работать)*/}
             {/*SuperSelect or SuperRadio*/}
             <SuperRadio
-                name={'theme'}
                 options={themes}
                 value={theme}
                 onChangeOption={onChange}
